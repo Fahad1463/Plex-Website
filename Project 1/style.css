@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    float: left;
+    height: 50px;
+    width: 80px;
+    background-color: green;
+    margin: 10px;
+    background-image: url(/Images/plexlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: 80px 50px;
+}
+body{
+    background-image: url(/Images/imagebk.jpg);
+    background-size: 1350px 600px;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style-type: none;
+     overflow: hidden;
+}
+li{
+    float: left;
+    margin-top: 20px;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.flex1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+li a:hover{
+    color: yellow;
+}
+input{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px white solid;
+    background-color: black;
+    color: white;
+}
+.signup{
+    height: 25px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s linear;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup:hover{
+    background-color: yellow;
+    color: black;
+}
+.box1{
+    margin: 150px;
+    margin-top: 150px;
+    margin-left: 50px;
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2{
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+}
+.watch{
+    height: 50px;
+    width: 120px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    transition: 0.2s linear;
+    background-color: yellow;
+    color: black;
+    margin-top: 40px;
+}
+.watch:hover{
+    background-color: black;
+    color: white;
+    border-color: yellow;
+    cursor: pointer;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    margin-left: 40px;
+    border-color: black solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.mainheading{
+    font-size: large; /* this is the heading of the divbox1 */
+}
+.logo3{
+    height: 140px;
+    width: 150px;
+    background-color: red;
+    background-image: url(/Images/catogorieslogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 70px;
+    margin-top: 110px;
+}
+.logo4{
+    height: 140px;
+    width: 150px;
+    background-color: red;
+    background-image: url(/Images/nocost.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 120px;
+    margin-top: 110px;
+}
+.logo5{
+    height: 140px;
+    width: 150px;
+    background-color: red;
+    background-image: url(/Images/devicefriendly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    margin-top: 110px;
+}
+.flexcontainer{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    width: 1000px;
+    margin-left: 50px;
+   text-align: center;
+}
+.text1{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.heading1{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mobile{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    background-image: url(/Images/mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flexcontainer2{
+    display: flex;
+    margin-top: 300px;
+}
+.mid{
+    height: 300px;
+    width:400px;
+    background-color: white;
+    margin-top: 200px;
+    padding: 100px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.midheading{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mid2{
+    height: 700px;
+    width: 600px;
+    background-color: aqua;
+    background-image: url(/Images/professor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.midflex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box10{
+    height: 40px;
+    width: 1000px;
+    background-color: white;
+    float: left;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.partner{
+    margin-left: 300px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box11{
+    height: 200px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.imageone{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    float: left;
+    margin: 60px;
+    margin-left: 100px;
+    background-image: url(/Images/productparamount.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s linear;
+}
+.imageone:hover{
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+}
+.imagetwo{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    float: left;
+    margin: 60px;
+    background-image: url(/Images/MGM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s linear;
+}
+.imagetwo:hover{
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+}
+.imagethree{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    float: left;
+    margin: 60px;
+    background-image: url(/Images/WB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s linear;
+}
+.imagethree:hover{
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+}
+.imagefour{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    float: left;
+    margin: 60px;
+    background-image: url(/Images/LEGENDARY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s linear;
+}
+.imagefour:hover{
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+}
+#i{
+    height: 130px;
+    width: 250px;
+} /* this is the space for the logo on the footer */
+
+
+
+.footer{
+    margin-top: 200px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.footerlogo{
+    height: 130px;
+    width: 250px;
+    background-color: white;
+    margin: 50px;
+    margin-left: 100px;
+    float: left;
+}
+#linkfooter{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    float: left;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#linkfooter:hover{
+    color: yellow;
+}
+.flexbox1{
+    display: flex;
+    flex-direction: column;
+}
+
+.fbox1{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin-left: 310px;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-image: url(/Images/facebook1.jpg);
+    background-size: cover;
+}
+.fbox1:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.fbox2{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-image: url(/Images/Instagram.jpg);
+    background-size: cover;
+}
+.fbox2:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+.fbox3{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-image: url(/Images/Youtube.jpg);
+    background-size: cover;
+}
+.fbox3:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.fbox4{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-image: url(/Images/X.jpg);
+    background-size: cover;
+}
+.fbox4:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.flexing{
+    display: flex;
+}
+.copyright{
+    color: white;
+    margin-top: 90px;
+    margin-left: 100px;
+    justify-content: center;
+
+}
